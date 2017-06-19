@@ -1,0 +1,22 @@
+{
+  "name": "Moya-Decodable",
+  "version": "0.1.0",
+  "summary": "A short description of Moya-Decodable.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/agiletalk/Moya-Decodable",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "agiletalk": "chanju.jeon@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/agiletalk/Moya-Decodable.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Moya-Decodable/Classes/**/*"
+}

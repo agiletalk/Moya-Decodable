@@ -1,0 +1,6 @@
+framework module Moya_Decodable {
+  umbrella header "Moya-Decodable-umbrella.h"
+
+  export *
+  module * { export * }
+}

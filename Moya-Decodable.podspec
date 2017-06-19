@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Moya-Decodable'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Moya-Decodable.'
+  s.summary          = 'Decodable bindings for Moya.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,15 +18,16 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  [Decodable](https://developer.apple.com/documentation/swift/decodable) bindings for
+  [Moya](https://github.com/Moya/Moya) for easier JSON serialization.
                        DESC
 
   s.homepage         = 'https://github.com/agiletalk/Moya-Decodable'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'agiletalk' => 'chanju.jeon@gmail.com' }
+  s.author           = { 'chanju Jeon' => 'chanju.jeon@gmail.com' }
   s.source           = { :git => 'https://github.com/agiletalk/Moya-Decodable.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/agiletalk'
 
   s.ios.deployment_target = '8.0'
 
