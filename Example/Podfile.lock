@@ -1,7 +1,15 @@
 PODS:
-  - Moya-Decodable (0.1.0)
+  - Alamofire (4.5.0)
+  - Moya (8.0.5):
+    - Moya/Core (= 8.0.5)
+  - Moya-Decodable (0.1.0):
+    - Moya (~> 8.0)
+  - Moya/Core (8.0.5):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
   - Nimble (5.1.1)
   - Quick (1.0.0)
+  - Result (3.2.3)
 
 DEPENDENCIES:
   - Moya-Decodable (from `../`)
@@ -13,9 +21,12 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Moya-Decodable: 86fef7048f5f5fbf837a5dfcf79004dd654d9f3e
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  Moya: c37eec09a098ba9991b5a963b291fc5704bdb9ef
+  Moya-Decodable: 29706d0080d1a966e90c75277598e7ef40f15a79
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+  Result: 128640a6347e8d2ae48b142556739a2d13f90ce6
 
 PODFILE CHECKSUM: 342bf0fb05ac0fab7c5ce92a6b64afcd8b8d2fea
 

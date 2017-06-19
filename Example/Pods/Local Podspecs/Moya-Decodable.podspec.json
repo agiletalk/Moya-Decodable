@@ -1,22 +1,29 @@
 {
   "name": "Moya-Decodable",
   "version": "0.1.0",
-  "summary": "A short description of Moya-Decodable.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Decodable bindings for Moya.",
+  "description": "[Decodable](https://developer.apple.com/documentation/swift/decodable) bindings for\n[Moya](https://github.com/Moya/Moya) for easier JSON serialization.",
   "homepage": "https://github.com/agiletalk/Moya-Decodable",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "agiletalk": "chanju.jeon@gmail.com"
+    "chanju Jeon": "chanju.jeon@gmail.com"
   },
   "source": {
     "git": "https://github.com/agiletalk/Moya-Decodable.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/agiletalk",
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "Moya-Decodable/Classes/**/*"
+  "source_files": "Moya-Decodable/Classes/**/*",
+  "frameworks": "Foundation",
+  "dependencies": {
+    "Moya": [
+      "~> 8.0"
+    ]
+  }
 }
